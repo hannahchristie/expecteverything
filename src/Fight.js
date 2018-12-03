@@ -20,7 +20,7 @@ class Fight extends Component {
               </MDBCol>
             </MDBRow>
             <MDBRow>
-              <MDBCol size="8">
+              <MDBCol md="8" sm="12">
                 <p>Cupcake ipsum dolor sit amet jelly beans sweet roll bonbon jelly beans. Chocolate cake I love gummies
                   apple pie sugar plum apple pie danish oat cake. Gummi bears jelly dragée.</p>
                 <p>Pudding cake donut. Tart soufflé cake gummi bears. Jelly beans donut brownie jujubes gingerbread cake
@@ -34,7 +34,7 @@ class Fight extends Component {
                 <p>Candy candy cheesecake. Macaroon chupa chups gummi bears gummies ice cream gummies topping dragée
                   chocolate bar. Cotton candy sweet roll chupa chups halvah halvah gummies muffin I love.</p>
               </MDBCol>
-              <MDBCol size="4">
+              <MDBCol md="4" sm="12">
                 <div className="text-right">
                   <p className="fancy-font text-right dark-cyan-text">Further Reading</p>
                 </div>

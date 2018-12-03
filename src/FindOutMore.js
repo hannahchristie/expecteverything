@@ -15,8 +15,8 @@ class FindOutMore extends Component {
     return (
       <div className="find-out-more mt-3">
         <MDBRow>
-          <MDBCol>
-            <Card border="dark" className="mb-3" style={{maxWidth: '18rem', minHeight: '17rem'}}>
+          <MDBCol sm="12" md="4">
+            <Card border="dark" className="mb-3 find-out-more-card">
               <CardBody className="text-primary">
                 <CardTitle tag="h5" className="dark-cyan-text fancy-font">Listen</CardTitle>
                 <CardText>
@@ -31,8 +31,8 @@ class FindOutMore extends Component {
               </CardFooter>
             </Card>
           </MDBCol>
-          <MDBCol>
-            <Card border="dark" className="mb-3" style={{maxWidth: '18rem', minHeight: '17rem'}}>
+          <MDBCol sm="12" md="4">
+            <Card border="dark" className="mb-3 find-out-more-card">
               <CardBody className="text-primary">
                 <CardTitle tag="h5" className="dark-cyan-text fancy-font">Discover</CardTitle>
                 <CardText>
@@ -47,8 +47,8 @@ class FindOutMore extends Component {
               </CardFooter>
             </Card>
           </MDBCol>
-          <MDBCol>
-            <Card border="dark" className="mb-3" style={{maxWidth: '18rem', minHeight: '17rem'}}>
+          <MDBCol sm="12" md="4">
+            <Card border="dark" className="mb-3 find-out-more-card">
               <CardBody className="text-primary">
                 <CardTitle tag="h5" className="dark-cyan-text fancy-font">Fight</CardTitle>
                 <CardText>
