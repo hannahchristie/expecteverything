@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
   MDBContainer,
 } from 'mdbreact';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import Header from './Header';
 import Footer from './Footer';
