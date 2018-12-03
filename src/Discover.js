@@ -35,6 +35,9 @@ class Discover extends Component {
                   chocolate bar. Cotton candy sweet roll chupa chups halvah halvah gummies muffin I love.</p>
               </MDBCol>
               <MDBCol size="4">
+                <div className="text-right">
+                  <p className="fancy-font text-right dark-cyan-text">Further Reading</p>
+                </div>
                 <MDBListGroup>
                   <MDBListGroupItem>Link 1</MDBListGroupItem>
                   <MDBListGroupItem>Link 2</MDBListGroupItem>
