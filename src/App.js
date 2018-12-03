@@ -14,7 +14,7 @@ import Fight from './Fight';
 class App extends Component {
   render () {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div>
           <Header/>
           <MDBContainer>
