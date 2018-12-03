@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  MDBContainer,
+} from 'mdbreact';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+import Header from './Header';
+import Footer from './Footer';
+import Home from './Home';
+import Listen from './Listen';
+import Discover from './Discover';
+import Fight from './Fight';
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+        <div>
+          <Header/>
+          <MDBContainer>
+            <Route path="/" exact component={Home}/>
+            <Route path="/listen" component={Listen}/>
+            <Route path="/discover" component={Discover}/>
+            <Route path="/fight" component={Fight}/>
+          </MDBContainer>
+          <Footer/>
+        </div>
+      </Router>
+
     );
   }
 }

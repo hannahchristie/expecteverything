@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Varela+Round');
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.fancy-font {
+  font-family: 'Fredoka One', cursive;
+}
+
+.header {
+  @extend .fancy-font;
+  padding: 6em 2em 4em;
+  font-size: 200%;
+  margin-bottom: 1em;
+}
+
+.footer {
+  padding: 4em 2em;
+  margin-top: 3em;
+}
+
+.inline-popover > div {
+  display: inline;
+}
+
+.dark-cyan-text {
+  color: #00acc1 !important;
+}
