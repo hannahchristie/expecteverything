@@ -6,7 +6,7 @@ class Reference4 extends Component {
     return (
       <Reference
         link={this.props.link}
-        body="Moore, M. Beazley, S. and Maelzer, J. (1998) Researching Disability Issues. Buckingham: Open University Press."/>
+        body={<p>Moore, M. Beazley, S. and Maelzer, J. (1998) <i>Researching Disability Issues.</i> Buckingham: Open University Press.</p>}/>
     );
   }
 }

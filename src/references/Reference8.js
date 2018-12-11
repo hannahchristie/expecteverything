@@ -6,7 +6,8 @@ class Reference8 extends Component {
     return (
       <Reference
         link={this.props.link}
-        body="Reflect (2017) Frank Stephens' POWERFUL Speech On Down Syndrome. Available from: YouTube <https://www.youtube.com/watch?v=yQJEoRhkapw> [accessed 11 December 2018]."/>
+        body={<p>Reflect (2017) <i>Frank Stephens' POWERFUL Speech On Down Syndrome.</i> Available from:
+          YouTube &lt;https://www.youtube.com/watch?v=yQJEoRhkapw&gt; [accessed 11 December 2018].</p>}/>
     );
   }
 }

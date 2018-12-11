@@ -6,7 +6,7 @@ class Reference3 extends Component {
     return (
       <Reference
         link={this.props.link}
-        body="Don’t Screen Us Out (2017) Don’t Screen Us Out [online]. Don’t Screen Us Out. Available from: <https://dontscreenusout.org/> [accessed 11 December 2018]"/>
+        body={<p>Don’t Screen Us Out (2017) <i>Don’t Screen Us Out</i> [online]. Don’t Screen Us Out. Available from: &lt;https://dontscreenusout.org/&gt [accessed 11 December 2018]</p>}/>
     );
   }
 }

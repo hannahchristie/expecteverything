@@ -22,13 +22,12 @@ class Listen extends Component {
         </MDBRow>
         <MDBRow>
           <MDBCol md="8" sm="12">
-            <p>It is common for Down’s syndrome to be referred to as a tragedy. Very often the identification of Down’s
-              syndrome is treated as a ‘diagnosis’ and parents are instantly given the news that their child is going to
-              be <Reference6 link="‘less than’ they expected. "/></p>
+            <p>It is common for Down’s syndrome to be referred to as a tragedy. Very often the identification
+              of <Reference6 link="Down’s syndrome is treated as a ‘diagnosis’"/> and parents are instantly
+              given the news that their child is going to be ‘less than’ they expected.</p>
 
-            <p>However, more important than anything else is to listen to the voices of <Reference4
-              link="those with Down’s syndrome"/>
-              and let them talk about their lives and experiences.</p>
+            <p>However, more important than anything else is to listen to the <Reference4
+              link="voices of those with Down’s syndrome"/> and let them talk about their lives and experiences.</p>
 
             <p>Living a life with Down’s syndrome is not the same as living a life without it - it is very different and
               it is so much more. People with Down’s syndrome are enjoying their lives and making lives around them
@@ -36,7 +35,8 @@ class Listen extends Component {
 
             <p>Many parents of children with Down’s syndrome are confused and upset because they simply cannot
               understand why they were told these things about their children that are simply not true and are working
-              to show the world that a child having an extra chromosome <Reference5 link="makes them extra-ordinary."/></p>
+              to show the world that a child having an extra chromosome <Reference5 link="makes them extra-ordinary."/>
+            </p>
 
             <p>There are many examples of successful individuals with Down’s syndrome achieving so much more than their
               peers - challenging the assumptions made about them and leaving society’s expectations behind!</p>
@@ -59,17 +59,17 @@ class Listen extends Component {
           </MDBCol>
           <MDBCol md="4" sm="12">
             <div className="text-right">
-              <p className="fancy-font text-right dark-cyan-text">Further Reading</p>
+              <p className="fancy-font text-right dark-cyan-text">Find Out More</p>
             </div>
             <MDBListGroup>
               <MDBListGroupItem>
-                <a href="https://www.youtube.com/watch?v=yQJEoRhkapw" rel="noopener noreferrer"
+                <a className="red-text" href="https://www.youtube.com/watch?v=yQJEoRhkapw" rel="noopener noreferrer"
                    target="_blank">
                   Listen to Frank Stephen’s Speech on Down’s syndrome
                 </a>
               </MDBListGroupItem>
               <MDBListGroupItem>
-                <a href="https://www.youtube.com/watch?v=HwxjoBQdn0s" rel="noopener noreferrer"
+                <a className="red-text" href="https://www.youtube.com/watch?v=HwxjoBQdn0s" rel="noopener noreferrer"
                    target="_blank">
                   Hear Karen Gaffney speak about the prenatal screening for Down’s syndrome
                 </a>

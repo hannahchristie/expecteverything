@@ -6,7 +6,7 @@ class Reference7 extends Component {
     return (
       <Reference
         link={this.props.link}
-        body="Rothstein, A. (2012) Mental Disorder or Neurodiversity [online]. The New Atlantis. Available from: <https://www.thenewatlantis.com/publications/mental-disorder-or-neurodiversity> [accessed 11 December 2018]."/>
+        body={<p>Rothstein, A. (2012) <i>Mental Disorder or Neurodiversity</i> [online]. The New Atlantis. Available from: &lt;https://www.thenewatlantis.com/publications/mental-disorder-or-neurodiversity&gt; [accessed 11 December 2018].</p>}/>
     );
   }
 }

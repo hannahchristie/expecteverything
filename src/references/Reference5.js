@@ -6,7 +6,7 @@ class Reference5 extends Component {
     return (
       <Reference
         link={this.props.link}
-        body="TEDx Talks (2017) Socially Constructing Down Syndrome: Confessions of a Rockin Mom | Cara Jacocks | TEDxACU [online]. Available from: YouTube <https://www.youtube.com/watch?v=Vk5RcCqnX9w> [accessed 11 December 2018]."/>
+        body={<p>TEDx Talks (2017) <i>Socially Constructing Down Syndrome: Confessions of a Rockin Mom | Cara Jacocks | TEDxACU</i> [online]. Available from: YouTube &lt;https://www.youtube.com/watch?v=Vk5RcCqnX9w&gt; [accessed 11 December 2018].</p>}/>
     );
   }
 }

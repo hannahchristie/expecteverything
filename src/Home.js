@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import {
   MDBRow,
   MDBCol,
-  Popover,
-  PopoverBody,
 } from 'mdbreact';
 import FindOutMore from './FindOutMore';
 import Reference1 from './references/Reference1';
@@ -14,7 +12,6 @@ class Home extends Component {
   render () {
     return (
       <div>
-        <FindOutMore/>
         <MDBRow>
           <MDBCol>
             <p className="mt-3 lead">
@@ -39,6 +36,7 @@ class Home extends Component {
             </p>
           </MDBCol>
         </MDBRow>
+        <FindOutMore/>
         <MDBRow>
           <MDBCol>
             <div className="embed-responsive embed-responsive-16by9">
