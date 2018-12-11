@@ -36,8 +36,7 @@ class FindOutMore extends Component {
               <CardBody className="text-primary">
                 <CardTitle tag="h5" className="dark-cyan-text fancy-font">Discover</CardTitle>
                 <CardText>
-                  Find out about the social model of disability, the neurodiversity movement and important ongoing
-                  conversations about the nature of ‘normal’.
+                  Find out about the social model of disability, cognitive diversity and valuing difference.
                 </CardText>
               </CardBody>
               <CardFooter>
@@ -52,8 +51,7 @@ class FindOutMore extends Component {
               <CardBody className="text-primary">
                 <CardTitle tag="h5" className="dark-cyan-text fancy-font">Fight</CardTitle>
                 <CardText>
-                  Find out where you stand, how to put your thoughts into action and spread the word about the
-                  problems behind the pregnancy screening for Down’s syndrome.
+                  Find out how to put your thoughts into action and spread the word about the problems behind the prenatal screening for Down’s syndrome.
                 </CardText>
               </CardBody>
               <CardFooter>
