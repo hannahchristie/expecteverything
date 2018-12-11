@@ -11,6 +11,7 @@ import {
 } from 'mdbreact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
+import header from './img/header.png';
 
 class Header extends Component {
   render () {
@@ -19,7 +20,7 @@ class Header extends Component {
         <Navbar color="red lighten-1" dark className="fixed-top" expand="md">
           <NavbarBrand>
             <NavLink to="/" className="white-text">
-                <FontAwesomeIcon icon={faHome}/>
+              <FontAwesomeIcon icon={faHome}/>
             </NavLink>
           </NavbarBrand>
 
@@ -39,9 +40,12 @@ class Header extends Component {
         < MDBContainer fluid className='cyan darken-1'>
           <div className="header">
             <MDBRow>
-              <MDBCol>
-                <h1 className="h1-responsive white-text">#EXPECTEVERYTHING</h1>
+              <MDBCol size="9">
+                <h1 className="h1-responsive white-text mt-5">#EXPECTEVERYTHING</h1>
                 <h3 className="white-text" style={{fontVariant: 'small-caps'}}>Celebrating Difference</h3>
+              </MDBCol>
+              <MDBCol size="3">
+                <img className="img-fluid" src={header}/>
               </MDBCol>
             </MDBRow>
           </div>
